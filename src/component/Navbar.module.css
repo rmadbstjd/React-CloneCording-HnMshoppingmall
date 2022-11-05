@@ -1,0 +1,25 @@
+.navbarContainer {
+
+    
+    
+}
+.loginContainer{
+    display:flex;
+    justify-content : flex-end;
+    
+}
+.searchContainer{
+    display:flex;
+    justify-content : flex-end;
+    
+}
+.imageContainer{
+    display:flex;
+    justify-content : center;
+    
+}
+.menuContainer{
+    display:flex;
+    justify-content : center;
+    
+}
