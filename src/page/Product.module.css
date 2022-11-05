@@ -1,0 +1,10 @@
+.container {
+    display:flex;
+    justify-content: center;
+}
+.productContainer {
+    display:flex;
+    justify-content: flex-start;
+    width: 1000px;
+    flex-wrap: wrap;
+}

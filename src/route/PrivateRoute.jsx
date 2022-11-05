@@ -1,11 +1,16 @@
 import React from 'react';
-
-const PrivateRoute = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+import ProductDetail from '../page/ProductDetail';
+import {Navigate} from 'react-router-dom';
+//return auth ===true?<ProductDetail/>:<Navigate to="/login"/>;
+const PrivateRoute = ({check, auth}) => {
+    
+        if(auth === true) {
+            return <ProductDetail check={check}/>
+        }
+        else {
+        return <Navigate to="/login"></Navigate>
+        }
+    
 };
 
 export default PrivateRoute;

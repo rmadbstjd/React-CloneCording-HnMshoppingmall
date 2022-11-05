@@ -1,0 +1,27 @@
+.container {
+    display:flex;
+    justify-content: center;
+}
+.infoContainer {
+    
+}
+.title {
+    font-size: 20px;
+    margin-left : 20px;
+    margin-bottom : 20px;
+}
+.price {
+    font-size: 20px;
+    margin-left : 20px;
+    margin-bottom : 20px;
+}
+.select {
+    width: 50px;
+    margin-left : 20px;
+    margin-bottom : 20px;
+}
+.button {
+    width: 150px;
+    margin-left : 20px;
+    margin-bottom : 20px;
+}
