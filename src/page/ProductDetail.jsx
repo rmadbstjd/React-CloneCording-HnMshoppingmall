@@ -4,7 +4,7 @@ const ProductDetail = ({check}) => {
     console.log("체크",check);
     const [product, setProduct] = useState(null);
     const getProductDetail = async () => {
-        let url=`http://localhost:5000/products/${check}`;
+        let url=`https://my-json-server.typicode.com/rmadbstjd/React-CloneCording-HnMshoppingmall/products/${check}`;
         let response = await fetch(url);
         let data = await response.json();
         setProduct(data);

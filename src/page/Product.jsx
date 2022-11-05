@@ -8,7 +8,7 @@ const Product = ({setCheck}) => {
     const [productList, setProductList] = useState(null);
     const getProducts = async () => {
         let searchQuery= query.get('q')|| "";
-        let url=`http://localhost:5000/products?q=${searchQuery}`;
+        let url=`https://my-json-server.typicode.com/rmadbstjd/React-CloneCording-HnMshoppingmall/products?q=${searchQuery}`;
         let response = await fetch(url);
         let data = await response.json();
         
